@@ -1216,7 +1216,7 @@ async function connectParentProfile(user) {
         const idToken = await user.getIdToken();
 
         const response = await fetch(
-            "https://aiwolf-ni-julia.onrender.com/api/parent/children/profile",
+            "https://aiwolf-ni-julia.onrender.com/api/parent/profile",
             {
                 method: "POST",
                 headers: {
